@@ -1,6 +1,6 @@
 # EAA Quotation System
 
-This project is a Vue 3 application built with Vite, which likely focuses on some specific business logic related to SGS. It includes features such as data export configuration and UI styling for document display.
+It includes features such as data export configuration and UI styling for document display.
 
 ## Table of Contents
 - [Recommended IDE Setup](#recommended-ide-setup)
