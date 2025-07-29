@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="">
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="./src/assets/logo.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessibility Team</title>
-</head>
-
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-  <script>
-    const redirect = sessionStorage.redirect;
-    delete sessionStorage.redirect;
-    if (redirect && redirect !== location.pathname) {
-      history.replaceState(null, null, redirect);
-    }
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./src/assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Team</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
